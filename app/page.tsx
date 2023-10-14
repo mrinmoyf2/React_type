@@ -25,7 +25,9 @@ export default function Home() {
           // setCount={setCount} 
         />
           {/* {icon} */}
-        <MoreButton />
+        <MoreButton 
+        // countValue={'5'} countHistory={['10','20','30']} 
+        />
     </main>
   )
 }
